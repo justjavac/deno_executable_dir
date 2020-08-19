@@ -25,9 +25,9 @@ Requires `allow-env` permission.
 Returns `null` if there is no applicable directory or if any other error occurs.
 
 ```ts
-import executable_dir from "https://deno.land/x/executable_dir/mod.ts";
+import executableDir from "https://deno.land/x/executable_dir/mod.ts";
 
-executable_dir();
+executableDir();
 // Lin: "/home/justjavac/.local/bin"
 // Mac: null
 // Win: null

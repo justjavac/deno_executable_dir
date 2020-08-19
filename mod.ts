@@ -11,7 +11,7 @@ import { join } from "https://deno.land/std@0.65.0/path/posix.ts";
  * | macOS   | -                                                               | -                          |
  * | Windows | -                                                               | -                          |
  */
-export default function executable_dir(): string | null {
+export default function executableDir(): string | null {
   switch (Deno.build.os) {
     case "linux": {
       const xdg = Deno.env.get("XDG_BIN_HOME");
